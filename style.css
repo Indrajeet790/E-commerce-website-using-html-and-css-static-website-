@@ -6,6 +6,7 @@
 .header {
   margin-top: 25px;
 }
+/* #for search box */
 .search-product input {
   width: 70%;
   height: 40px;
@@ -16,6 +17,7 @@
   border: 1px solid #ddd;
   border-right: none;
 }
+/* for search button */
 .search-product button {
   height: 40px;
   border-radius: 0;

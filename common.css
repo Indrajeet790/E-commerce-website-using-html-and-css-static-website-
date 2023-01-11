@@ -1,12 +1,12 @@
 body {
   margin: 0;
 }
-
-.wrapper {
+/* header-section */
+.section {
   margin-left: 5%;
   margin-right: 5%;
 }
-
+/* for selected-product span  */
 .logo h1 span:first-of-type {
   padding: 5px 10px;
   border: 1px solid #ddd;
@@ -24,6 +24,7 @@ body {
 .wid-50 {
   width: 50%;
 }
+/* for selected button */
 .btn {
   height: 40px;
   border: 1px solid #ddd;
