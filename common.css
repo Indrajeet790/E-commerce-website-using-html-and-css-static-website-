@@ -1,8 +1,39 @@
-* {
+body {
   margin: 0;
 }
 
 .wrapper {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.logo h1 span:first-of-type {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+  color: #d19c97;
+}
+
+.arrange-left {
+  float: left;
+}
+
+.wid-25 {
+  width: 25%;
+}
+.wid-50 {
+  width: 50%;
+}
+.btn {
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  background-color: #fff;
+  min-width: 50px;
+  text-align: center;
+  color: #d19c97;
+}
+.btn span {
+  font-size: 16px;
+  font-weight: 800;
 }
