@@ -1,17 +1,11 @@
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 /* header-section */
 .section {
   margin-left: 5%;
   margin-right: 5%;
-}
-/* for selected-product span  */
-.logo h1 span:first-of-type {
-  padding: 5px 10px;
-  border: 1px solid #ddd;
-  margin-right: 5px;
-  color: #d19c97;
 }
 
 .arrange-left {
@@ -24,17 +18,25 @@ body {
 .wid-50 {
   width: 50%;
 }
+.next-row {
+  clear: both;
+}
 /* for selected button */
 .btn {
-  height: 40px;
+  height: 35px;
   border: 1px solid #ddd;
   border-radius: 0;
   background-color: #fff;
   min-width: 50px;
   text-align: center;
   color: #d19c97;
+  margin-right: 10px;
 }
 .btn span {
   font-size: 16px;
   font-weight: 800;
+}
+.btn span i {
+  padding-right: 5px;
+  padding-left: 5px;
 }

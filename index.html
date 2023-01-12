@@ -3,8 +3,18 @@
     <title>E-commerce website</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/173bd74bb1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <>
     <div class="section">
       <div class="header">
         <div class="logo arrange-left wid-25">
@@ -12,13 +22,43 @@
         </div>
         <div class="search-product arrange-left wid-50">
           <input type="text" placeholder="search for product" />
-          <button>Search</button>
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
         <div class="selected-product arrange-left wid-25">
-          <button class="btn"><span>0</span></button>
-          <button class="btn"><span>0</span></button>
+          <button class="btn">
+            <span> <i class="fa-solid fa-cart-shopping"></i>0 </span>
+          </button>
+          <button class="btn">
+            <span><i class="fa-solid fa-heart"></i>0</span>
+          </button>
         </div>
       </div>
     </div>
+    <!--categories element  -->
+    <div class="full-banner-warapper">
+      <div class="section  next raw">
+        <div class="banner-area  category-list arrange-left wid-25">
+          <div class="list-header ">
+            <h4>Category</h4>
+            <span><i class="fa-solid fa-angle-down"></i></span>
+            <div>
+              <ul>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">T-shirts</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">SmartPhones</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Kitchan</a></li>
+                <li><a href="#">Toy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- categories element -->
   </body>
 </html>
