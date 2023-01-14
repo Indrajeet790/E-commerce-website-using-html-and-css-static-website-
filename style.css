@@ -181,3 +181,21 @@
   font-weight: 600;
   /* padding-right: 20px; */
 }
+/* category image section*/
+.category-item {
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.category-item .category-img img {
+  width: 100%;
+}
+.category-item .product-count {
+  text-align: right;
+}
+.category-item .category-type h5 {
+  margin-bottom: 0;
+  font-size: 25px;
+}
