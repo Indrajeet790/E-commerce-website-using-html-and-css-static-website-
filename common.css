@@ -50,3 +50,7 @@ body {
   padding-right: 5px;
   padding-left: 5px;
 }
+/*  for face direction left or right
+.flip-img {
+  transform:scaleX(-1);
+} */
